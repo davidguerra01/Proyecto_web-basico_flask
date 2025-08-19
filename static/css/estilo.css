@@ -1,0 +1,69 @@
+
+.bg-body{ background: #f7f9fc; }
+
+/* Marca en navbar */
+.brand-dot{
+  width:10px;height:10px;border-radius:50%;
+  background: linear-gradient(90deg,var(--uea-c1),var(--uea-c2));
+  display:inline-block
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.image-container {
+    max-width: 1800px;       
+    margin: 20px auto;      
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.responsive-image {
+    width: 100%;            
+    height: auto;           
+    border-radius: 8px;
+    transition: transform 0.3s ease; 
+}
+
+.responsive-image:hover {
+    transform: scale(1.02); 
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .image-container {
+        max-width: 90%;     
+        padding: 10px;
+    }
+}
+.fw-semibold text-uppercase
+{
+text-align: center;
+}
+
+.bg-body{
+  text-align: justify;
+}
